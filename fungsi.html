@@ -9,14 +9,21 @@
 <body>
     <h1>fungsi javascript</h1>
     
-    <<script>
-     function  tampilkanPesan() {
+    <script>
+     function  tampilkanPesan(nama) {
         // badan fungsi
         console.log ('halo selamat datang' + nama)
         }
-        
-      tampilkanPesan('asep')
-      tampilkanPesan('amir')
+      
+      function hitungLuasKotak(panjang, lebar) {
+        let luas = panjang * lebar
+        console.log ('luas kotak' + panjang + 'x' + lebar + '=' + luas)
+      }
+      hitungLuasKotak(8, 7)
+      
+      //let input = prompt ('masukan namamu')  
+      //tampilkanPesan('asep')
+     // tampilkanPesan('amir')
     </script>
     
 </html>
