@@ -11,19 +11,61 @@
  
  <script>
    // fungsi periksa angka yg lebih kecil
-   function angkaKecil(x,y) {
-       if (x < y) {
-       return x
-     } else {
-         return y
-     }
-   }
+   //function angkaKecil(x,y) {
+       //if (x < y) {
+       //return x
+    // } else {
+         //return y
+     //}
+   //}
    
-     let angka1 = confirm('masukan angka ke 1')
-     let angka2 = confirm('masukan angka ke 2')
+     //let angka1 = prompt('masukan angka ke 1')
+     //let angka2 = prompt('masukan angka ke 2')
      
-    let hasil = angkaKecil(angka1, angka2)
-    console.log ('angka yang lebih kecil adalah' + hasil)
+    //let hasil = angkaKecil(angka1, angka2)
+    //console.log ('angka yang lebih kecil adalah' + hasil)
+    /*function angkabesar(a,b) {
+      if (a>b) {
+        return a
+      } else {
+        return b
+      }
+    }
+    let angka2 = prompt('masukan angka ke 2')
+    let angka3 = prompt('masukan angka 3')
+    
+    let hasil = angkabesar(angka2,angka3)
+    console.log ('angka yang lebih besar adalah'+ hasil) */
+    
+    function angkakecil(a,b,c){
+      if (a<b) {
+        return a
+      } else if(b<c) {
+        return b
+      } else{
+        return c
+      }
+    }
+    
+    let angka1 = prompt('masukan angka ke1')
+    let angka2 = prompt('masukan angka ke2')
+    let angka3 = prompt('masukan angka ke3')
+    let hasil = angkakecil(angka1,angka2,angka3)
+    console.log ('angka yang lebih kecil adalah' +hasil)
+    
+    /*function angkaTerkecil(a, b, c) {
+      let terkecil = a
+      if (b < terkecil) {
+          terkecil = b
+     }
+      if (c < terkecil) {
+        terkecil = c
+     }
+      return terkecil*/
+      
+      
+      
+      
  </script>
 </body>
 </html>
